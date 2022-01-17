@@ -13,6 +13,17 @@
   width: 600px;
   margin-left: calc(50% - 300px);
 }
+
+.container .left {
+  float: left;
+  width: 50%;
+  margin-right: 10%;
+}
+.container .right {
+  float: left;
+  width: 40%;
+}
+
 @media (max-width: 900px) {
   .container > .row {
     width: 600px;
@@ -24,6 +35,14 @@
   .container > .row {
     width: 400px;
     margin-left: calc(50% - 200px);
+  }
+  .container .left {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+  .container .right {
+    width: 100%;
   }
 }
 
