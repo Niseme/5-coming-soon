@@ -1,2 +1,9 @@
 .clock {
+  display: inline-block;
+}
+.clock > .time {
+}
+.clock > .time > .value {
+}
+.clock > .time > .title {
 }
