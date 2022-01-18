@@ -13,6 +13,9 @@
 @import "../components/progress-bar.css";
 
 /* HEADER */
+.hero {
+  padding-bottom: 30px;
+}
 .hero > .row-short {
   text-align: center;
 }
@@ -30,5 +33,12 @@
   font-size: 18px;
   margin-bottom: 45px;
 }
+.clock {
+  margin-bottom: 45px;
+}
+.form {
+  margin-bottom: 15px;
+}
+
 /* MAIN CONTENT */
 /* FOOTER */
