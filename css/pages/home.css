@@ -38,11 +38,20 @@
   font-size: 18px;
   margin-bottom: 30px;
 }
-.clock {
+.hero .clock {
   margin-bottom: 45px;
 }
-.form {
+.hero .form {
+  width: 90%;
+  margin: 0 5% 15px;
   margin-bottom: 15px;
+}
+.hero .form > .input {
+  color: #fff;
+  border-color: currentColor;
+}
+.hero .form > .input::placeholder {
+  color: currentColor;
 }
 
 /* MAIN CONTENT */
@@ -69,6 +78,14 @@
 }
 .content-description > .link:hover {
   text-decoration: underline;
+}
+@media (min-width: 900px) {
+  main .form > input.input {
+    width: calc(50% - 10px);
+  }
+  main .form > input.input:last-of-type {
+    float: right;
+  }
 }
 
 /* FOOTER */
