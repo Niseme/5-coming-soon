@@ -115,3 +115,13 @@ footer.container {
   background-color: #fff;
   color: var(--primary-color);
 }
+.row-short {
+  text-align: center;
+}
+footer .logo {
+  max-height: 50px;
+  width: 100%;
+  margin: 50px 0;
+  object-fit: contain;
+  object-position: top;
+}
