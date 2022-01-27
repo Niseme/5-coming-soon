@@ -15,7 +15,7 @@
 
 /* HEADER */
 .hero {
-  min-height: 100vh;
+  min-height: 70vh;
   padding-bottom: 30px;
   background-image: url(../../img/banner-1.jpg);
   background-size: cover;
